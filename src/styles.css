@@ -1,0 +1,32 @@
+body {
+  background-color: #121212;
+}
+
+/* Add hover animations */
+.note-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.note-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.add-btn,
+.delete-btn {
+  transition: all 0.2s ease-in-out;
+}
+
+.add-btn:hover {
+  transform: scale(1.05);
+  background-color: #ffc107 !important;
+}
+
+.delete-btn:hover {
+  transform: scale(1.05);
+  background-color: #dc3545 !important;
+}
+
+.custom-placeholder::placeholder {
+  color: #adb5bd !important; /* Bootstrap's secondary color */
+  opacity: 1; /* Ensure full visibility */
+}
