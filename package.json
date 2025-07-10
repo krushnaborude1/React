@@ -1,13 +1,13 @@
 {
   "name": "react",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "src/index.tsx",
   "description": "",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "engines": {
-    "node": "18.x"
+    "node": "20.x"
   },
   "scripts": {
     "start": "react-scripts start",
