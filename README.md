@@ -3,11 +3,10 @@
 
 A simple and elegant React-based note-taking web application inspired by Google Keep. Users can add, view, and delete notes seamlessly using an intuitive UI built with modern tools.
 
---- http://192.168.11.68:3000
+--- https://react-nu-tawny.vercel.app/
 
 ## 🌐 Live Demo
-
-> [View the App]
+ https://react-nu-tawny.vercel.app/
 
 ---
 
